@@ -1,3 +1,18 @@
 html{
   font-family: 'Nunito', sans-serif;
 }
+*{
+  box-sizing: content-box;
+}
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.title__box{
+  display:flex;
+}
+h1{
+  color:orange;
+
+}
