@@ -8,11 +8,25 @@ body{
   display:flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .title__box{
   display:flex;
 }
 h1{
   color:orange;
-
+}
+.section__subtitle{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size: 2rem;
+}
+.section__subtitle__button{
+  background-color: orange;
+  padding:10px;
+  border-radius: 20%;
 }
