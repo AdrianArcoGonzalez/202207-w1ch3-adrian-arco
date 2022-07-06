@@ -12,14 +12,22 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+@media (min-width: 769px) {
+  body{
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+}
 .title__box{
   display:flex;
 }
+
 @media (min-width: 769px) {
   .title__box{
     width: 100%;
     justify-content:flex-start;
-    align-items:flex-end;  
+    align-items:flex-end; 
   }
 }
 h1{
@@ -63,7 +71,12 @@ flex-direction: column;
 width:70vw;
 margin-top: 2rem;
 }
-
+@media (min-width: 769px) {
+  .section__imgbox{
+    width: 100%;
+    flex-direction: row;
+  }
+}
 .section__imgbox__article{
   width: 70%;
 }
