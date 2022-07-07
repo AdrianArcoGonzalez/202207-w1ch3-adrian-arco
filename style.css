@@ -28,6 +28,7 @@ body{
     width: 100%;
     justify-content:flex-start;
     align-items:flex-end; 
+    height:30px;
   }
 }
 h1{
